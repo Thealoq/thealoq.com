@@ -304,6 +304,7 @@ body {
   justify-content: space-between;
   max-height: 100vh;
   overflow: hidden:
+  background-color: #282A36
 
 }
 
