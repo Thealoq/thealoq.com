@@ -155,7 +155,7 @@ svg {
 }
 
 .footer {
-  padding: 2rem;
+  padding: 3rem;
   background-color: #282a36;
 }
 
@@ -164,7 +164,7 @@ svg {
 }
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 .bg2 {
-  margin-top: -1rem;
+  margin-top: -4rem;
   padding: 2rem;
   background-color: #282a36;
 }
@@ -303,6 +303,8 @@ body {
   flex-direction: column;
   justify-content: space-between;
   max-height: 100vh;
+  overflow: hidden:
+
 }
 
 .app {
