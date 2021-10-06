@@ -25,7 +25,7 @@
       <div>
         <div class="bg2">
           <center>
-            <div>
+            <div class="plus">
               <h3>Hello I'm Thealoq</h3>
               <h4>
                 Hello, I am 21 years old and I've been developing software for a
@@ -82,7 +82,7 @@
       </center>
     </div>
     <div>
-      <center>
+      <center class="big">
         <footer class="footer">
           <div>
             © 2021 All rights reserved. Made with ❤ by
@@ -303,7 +303,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   max-height: 100vh;
-  overflow: hidden:
+  overflow: hidden;
   background-color: #282A36
 
 }
@@ -350,4 +350,52 @@ nav {
   text-underline-offset: 4px;
   color: #c9e7ef;
 }
+
+@media only screen and (max-device-width: 480px) {
+ .plus h3{
+    margin-left: -12rem;
+ }
+
+ .plus h4{
+   width: 17rem;
+ }
+.projeler{
+  display: block;
+
+}
+
+ .proje{
+   
+   background-color: transparent;
+   display: block;
+   margin-left: 0;
+   padding: 0;
+   justify-content: none;
+   max-width: fit-content;
+   text-align: center;
+   margin-left: 90px;
+ }
+
+.bg2{
+ margin-top: 2rem;
+}
+ 
+ nav{
+   padding: 1rem;
+ }
+
+.big{
+  display: block;
+}
+
+  .proje a{
+    display: block;
+    margin-left: 0; 
+ }
+
+ .icon{
+   display: none;
+ }
+}
 </style>
+
