@@ -1,7 +1,7 @@
 <template>
             <nav>
       <div class="app">
-        <a href="/"> Thealoq<b>.xyz</b> </a>
+        <a href="/"> Thealoq<b>.com</b> </a>
       </div>
       <div class="texts">
         <a v-for="item in items" :key="item.name" :href="item.href" > {{item.name}} </a>
