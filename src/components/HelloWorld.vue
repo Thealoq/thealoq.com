@@ -290,6 +290,7 @@ b {
   gap: 2;
 }
 .bg h1 {
+  margin-top: 2rem;
   color: #8be9fd;
 }
 body {
