@@ -252,6 +252,11 @@ h3 {
   border-radius: 50%;
 }
 
+h1{
+  margin-top: 2rem
+}
+
+
 h3,
 h2 {
   color: #8be9fd;
