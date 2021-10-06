@@ -1,4 +1,4 @@
-# thealoq.xyz
+# thealoq.com
 
 ## Project setup
 ```
