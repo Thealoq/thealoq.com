@@ -303,7 +303,6 @@ body {
   flex-direction: column;
   justify-content: space-between;
   max-height: 100vh;
-  overflow: hidden;
   background-color: #282A36
 
 }
@@ -363,6 +362,10 @@ nav {
   display: block;
 
 }
+
+ body{
+   width: 20rem;
+ }
 
  .proje{
    
