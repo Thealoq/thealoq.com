@@ -107,9 +107,7 @@
   </div>
 </template>
 
-
-
-<script lang="js"> 
+<script lang="js">
 
 
 export default {
@@ -145,7 +143,6 @@ export default {
     }
 };
 </script>
-
 
 <style>
 svg {
@@ -252,10 +249,9 @@ h3 {
   border-radius: 50%;
 }
 
-h1{
-  margin-top: 2rem
+h1 {
+  margin-top: 2rem;
 }
-
 
 h3,
 h2 {
@@ -303,8 +299,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   max-height: 100vh;
-  background-color: #282A36
-
+  background-color: #282a36;
 }
 
 .app {
@@ -351,54 +346,51 @@ nav {
 }
 
 @media only screen and (max-device-width: 480px) {
- .plus h3{
+  .plus h3 {
     margin-left: -12rem;
- }
+  }
 
- .plus h4{
-   width: 17rem;
- }
-.projeler{
-  display: block;
-
-}
-
- body{
-   width: 20rem;
- }
-
- .proje{
-   
-   background-color: transparent;
-   display: block;
-   margin-left: 0;
-   padding: 0;
-   justify-content: none;
-   max-width: fit-content;
-   text-align: center;
-   margin-left: 90px;
- }
-
-.bg2{
- margin-top: 2rem;
-}
- 
- nav{
-   padding: 1rem;
- }
-
-.big{
-  display: block;
-}
-
-  .proje a{
+  .plus h4 {
+    width: 17rem;
+  }
+  .projeler {
     display: block;
-    margin-left: 0; 
- }
+  }
 
- .icon{
-   display: none;
- }
+  body {
+    width: 20rem;
+  }
+
+  .proje {
+    background-color: transparent;
+    display: block;
+    margin-left: 0;
+    padding: 0;
+    justify-content: none;
+    max-width: fit-content;
+    text-align: center;
+    margin-left: 90px;
+  }
+
+  .bg2 {
+    margin-top: 2rem;
+  }
+
+  nav {
+    padding: 1rem;
+  }
+
+  .big {
+    display: block;
+  }
+
+  .proje a {
+    display: block;
+    margin-left: 0;
+  }
+
+  .icon {
+    display: none;
+  }
 }
 </style>
-

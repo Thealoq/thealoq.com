@@ -1,10 +1,9 @@
 <template>
   <div id="app">
-      <Navbar :items="item" />
-    <router-view/>
+    <Navbar :items="item" />
+    <router-view />
   </div>
 </template>
-
 
 <script lang="js">
 import Navbar from '@/components/Navbar.vue'
@@ -14,7 +13,7 @@ import Navbar from '@/components/Navbar.vue'
         return {
             item : [
               { name : "About", href : "#" },
-              
+
                { name:"Blog", href : "#" },
            ]
       }
