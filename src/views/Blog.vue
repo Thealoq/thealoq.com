@@ -50,9 +50,7 @@
         </div>
       </div>
     </div>
-    <div class="bg3">
-     
-    </div>
+    <div class="bg3"></div>
     <div>
       <center>
         <footer class="footer">
@@ -79,9 +77,8 @@
   </div>
 </template>
 
-
 <style>
-.about h1{
+.about h1 {
   color: black;
 }
 </style>

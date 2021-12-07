@@ -2,21 +2,15 @@
   <div>
     <div>
       <div class="bg">
-        <center>
-      
-        </center>
+        <center></center>
       </div>
       <div>
         <div class="bg2">
-          <center>
-           
-          </center>
+          <center></center>
         </div>
       </div>
     </div>
-    <div class="bg3">
-     
-    </div>
+    <div class="bg3"></div>
     <div>
       <center>
         <footer class="footer">
@@ -43,22 +37,21 @@
   </div>
 </template>
 
-
 <script>
 export default {
   created() {
-      this.$toaster.success('Projenin Açık Kaynak Olduğunu Biliyormusun?.', {
-         position: "bottom-right",
-         onClick() {
-          window.location.href = "http://localhost:8080"
-        }
-      })
-  }
-}
+    this.$toaster.success("Projenin Açık Kaynak Olduğunu Biliyormusun?.", {
+      position: "bottom-right",
+      onClick() {
+        window.location.href = "http://localhost:8080";
+      },
+    });
+  },
+};
 </script>
 
 <style>
-.about h1{
+.about h1 {
   color: black;
 }
 </style>
