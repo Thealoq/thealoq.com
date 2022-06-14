@@ -4,7 +4,7 @@
       <div class="bg">
         <center>
           <img
-            src="https://cdn.discordapp.com/attachments/605130756729077762/895016288638869534/thealoq.gif"
+            src="https://cdn.discordapp.com/attachments/983239448693198879/986203568619016222/thealoq.gif"
             alt=""
           />
           <h1>Thealoq Code</h1>
