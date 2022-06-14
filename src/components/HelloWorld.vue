@@ -132,7 +132,7 @@ export default {
         return day +"-" + monthNames[monthIndex] + "-"+ year;
     },
     async getDataFromGithub() {
-        const url = `https://api.github.com/users/thealoqjs/repos`;
+        const url = `https://api.github.com/users/thealoq/repos`;
         const data = await fetch(url);
         const body = await data.json();
         this.repos = body;
